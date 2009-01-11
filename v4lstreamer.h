@@ -1,5 +1,5 @@
-#ifndef V4LSTREAMER
-#define V4LSTREAMER
+#ifndef __V4LSTREAMER_H__
+#define __V4LSTREAMER_H__
 
 #include <string>
 #include <linux/videodev2.h>

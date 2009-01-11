@@ -1,3 +1,6 @@
+#ifndef __IOEXCEPTION_H__
+#define __IOEXCEPTION_H__
+
 #include <exception>
 
 using namespace std;
@@ -11,3 +14,6 @@ public:
     IOException(const char *exp);
     virtual const char *what() const throw();
 };
+
+#endif
+
